@@ -1,6 +1,7 @@
-import { View, Text, Pressable } from "react-native";
+import { View, Text } from "react-native";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import { AppStyle } from "../AppStyle";
+import SwitchComponent from "../Components/SwitchComponent";
 
 export default function FooterLayout() {
   return (
@@ -44,6 +45,9 @@ export default function FooterLayout() {
         <Text style={AppStyle.LinksTitle}>collection</Text>
         <Text style={AppStyle.LinksTitle}>information</Text>
         <Text style={AppStyle.LinksTitle}>more</Text>
+      </View>
+      <View style={AppStyle.SwitchWrapper}>
+        <SwitchComponent />
       </View>
     </View>
   );

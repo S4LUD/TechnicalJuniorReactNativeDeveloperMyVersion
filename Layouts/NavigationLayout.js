@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View } from "react-native";
 import { AppStyle } from "../AppStyle";
 import LeftNavigationComponent from "../Components/LeftNavigationComponent";
 import MiddleNavigationComponent from "../Components/MiddleNavigationComponent";

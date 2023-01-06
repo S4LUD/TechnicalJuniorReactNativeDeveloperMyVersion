@@ -64,3 +64,21 @@ export const Recommend = [
   { _id: 9, price: 442, discount: 28, image: R9, category: "Shoes" },
   { _id: 10, price: 568, discount: 25, image: R10, category: "Jacket" },
 ];
+
+export const Recommendv2 = [
+  { _id: 2, price: 845, discount: 23, image: R2, category: "Sweater" },
+  { _id: 5, price: 403, discount: 25, image: R5, category: "T-Shirt" },
+  { _id: 10, price: 568, discount: 25, image: R10, category: "Jacket" },
+];
+
+export const Recommendv3 = [
+  { _id: 1, price: 381, discount: 26, image: R1, category: "Denim" },
+  { _id: 2, price: 845, discount: 23, image: R2, category: "Sweater" },
+  { _id: 3, price: 944, discount: 28, image: R3, category: "T-Shirt" },
+  { _id: 4, price: 583, discount: 27, image: R4, category: "Long Sleeves" },
+  { _id: 5, price: 403, discount: 25, image: R5, category: "T-Shirt" },
+  { _id: 6, price: 832, discount: 27, image: R6, category: "Clothes" },
+  { _id: 7, price: 903, discount: 26, image: R7, category: "T-Shirt" },
+  { _id: 9, price: 442, discount: 28, image: R9, category: "Shoes" },
+  { _id: 10, price: 568, discount: 25, image: R10, category: "Jacket" },
+];

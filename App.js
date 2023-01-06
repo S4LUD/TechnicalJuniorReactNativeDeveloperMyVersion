@@ -1,5 +1,12 @@
-import AppLayout from "./Layouts/AppLayout";
+"use strict";
+
+import AppContainer from "./AppContainer";
+import { AppProvider } from "./Context";
 
 export default function App() {
-  return <AppLayout />;
+  return (
+    <AppProvider>
+      <AppContainer />
+    </AppProvider>
+  );
 }

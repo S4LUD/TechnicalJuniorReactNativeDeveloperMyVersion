@@ -1,4 +1,4 @@
-import { FlatList, View, Text } from "react-native";
+import { FlatList, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { Recommend } from "../Util/tempData";
 import HomeLayout from "./HomeLayout";
